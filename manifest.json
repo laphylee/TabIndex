@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "eventpage.js" ]
+   },
+   "icons": {
+      "128": "TabIndex_128.png"
+   },
+	 "browser_action": {
+    },
+   "manifest_version": 2,
+   "name": "Tab Index",
+   "permissions": [ 
+		 "tabs", 
+		 "webNavigation",
+		 "contextMenus",
+		 "http://*/*", 
+		 "https://*/*"
+	 ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
